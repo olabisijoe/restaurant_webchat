@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.5;
+        }
+    </style>
+    <title>Why Choose Us</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="{{('/')}}">Home</a></li>
+            <li><a href="{{url_for('services')}}">Services</a></li>
+            <li><a href="{{url_for('about')}}">About Us</a></li>
+            <li><a href="{{url_for('contact_us')}}">Contact Us</a></li>
+            <li><a href="{{url_for('menu')}}">Menu</a></li>
+            <li><a href="{{url_for('faqs')}}">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <h1>Why Choose Us</h1>
+
+        <p>At Yummy Chops, we take pride in offering an extensive variety of dishes inspired by different cultures and cuisines from around the world. We understand that every guest is unique, and that’s why we strive to create an inclusive environment where everyone can find something they love.</p>
+
+        <p>Our chefs are passionate about creating delicious, healthy, and authentic flavors using only the freshest ingredients, and our friendly staff is committed to providing exceptional service, both online and walk-ins, to ensure that every guest has a memorable dining experience.</p>
+
+        <p>Don’t let hunger take control of you. Beat it with Yummy Chops!</p>
+    </div>
+    
+</body>
+</html>

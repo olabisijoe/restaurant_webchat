@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            background-color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .menu-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .price {
+            float: right;
+            font-weight: bold;
+        }
+    </style>
+    <title>African Cuisine Menu</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="{{('/')}}">Home</a></li>
+            <li><a href="{{url_for('services')}}">Services</a></li>
+            <li><a href="{{url_for('about')}}">About Us</a></li>
+            <li><a href="{{url_for('contact_us')}}">Contact Us</a></li>
+            <li><a href="{{url_for('menu')}}">Menu</a></li>
+            <li><a href="{{url_for('faqs')}}">FAQ</a></li>
+          
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+    <h1>MENU</h1>
+    <p><strong>African Food</strong></p>
+    <p>Experience the rich and vibrant flavors of Africa in every bite.</p>
+
+    <div class="menu-item">
+    <p>Yellow garri, bitter leaf soup with innards</p>
+    <p class="price">₦2,550</p>
+    </div>
+
+    <div class="menu-item">
+    <p>Moimoi, stewed turkey, white rice and sauce</p>
+    <p class="price">₦3,500</p>
+    </div>
+
+    <div class="menu-item">
+    <p>Fufu, afang, boiled croaker and fried goat meat</p>
+    <p class="price">₦4000</p>
+    </div>
+    <div class="menu-item">
+    <p>Oat meal swallow with okro titus an snail</p>
+    <p class="price">₦5000</p>
+    </div>
+    <div class="menu-item">
+    <p>Ofada rice with assorted ofada sauce with fried plantain</p>
+    <p class="price">₦4500</p>
+    </div>
+    <div class="menu-item">
+    <p>Stewed beans, saki, ponmo with fried plantain</p>
+    <p class="price">₦3000</p>
+    </div>
+    <div class="menu-item">
+    <p>Yellow garri, edikaikong, local stewed chicken and stocked fish</p>
+    <p class="price">₦6000</p>
+    </div>
+    <div class="menu-item">
+    <p>Wheat, efo riro, mega farm and ponmo</p>
+    <p class="price">₦4500</p>
+    </div>
+    <div class="menu-item">
+    <p>Unripe plantain, sauce and fried fish</p>
+    <p class="price">₦4000</p>
+    </div>
+    <div class="menu-item">
+    <p>Pounded yam and ofe owerri</p>
+    <p class="price">₦3000</p>
+    </div>
+    <div class="menu-item">
+    <p>Rice and beans, boiled goat meat, fried plantain sauce</p>
+    <p class="price">₦2500</p>
+    </div>
+    <div class="menu-item">
+    <p>Plantain porridge and assorted beef</p>
+    <p class="price">₦2500</p>
+    </div>
+    <div class="menu-item">
+    <p>Yam porridge with fried croaker</p>
+    <p class="price">₦2500</p>
+    </div>
+    <div class="menu-item">
+    <p>Banga and Starch with catfish soup</p>
+    <p class="price">₦2000</p>
+    </div>
+    <div class="menu-item">
+    <p>Amala and ewedu with gbegiri and innards</p>
+    <p class="price">₦2500</p>
+    </div>
+    <div class="menu-item">
+    <p>Akpu, oha, stock fish and fried croaker</p>
+    <p class="price">₦3500</p>
+    </div>
+    <div class="menu-item">
+    <p>Goat meat pepper soup</p>
+    <p class="price">₦2000</p>
+    </div>
+    <div class="menu-item">
+    <p>Catfish pepper soup</p>
+    <p class="price">₦1500</p>
+    </div>
+    <div class="menu-item">
+    <p>Eko, fried stewed croaker and bitter leaf vegetable</p>
+    <p class="price">₦3000</p>
+    </div>
+
+
+        <!-- Repeat the structure for other menu items -->
+
+    </div>
+
+   
+</body>
+
+</html>

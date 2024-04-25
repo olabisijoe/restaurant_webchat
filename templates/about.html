@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.5;
+        }
+    </style>
+    <title>About Us</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="{{('/')}}">Home</a></li>
+            <li><a href="{{url_for('services')}}">Services</a></li>
+            <li><a href="{{url_for('about')}}">About Us</a></li>
+            <li><a href="{{url_for('contact_us')}}">Contact Us</a></li>
+            <li><a href="{{url_for('menu')}}">Menu</a></li>
+            <li><a href="{{url_for('faqs')}}">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <h1>About Us</h1>
+
+        <p>Yummy Chops Restaurants is a customer-focused food services company established in 2018. We have since attained a front-line position in the highly competitive restaurant service industry.</p>
+
+        <p>We engage professional food experts from diverse backgrounds and cultures to achieve the true taste our customers deserve. Our foods are produced under the most hygienic conditions, and we make use of only the most modern and proven equipment for our extensive, diverse, and imaginable array of foods.</p>
+
+        <p>Our tastefully furnished and relaxed restaurant environment provides the perfect ambiance to enjoy your eating experience. Also, our sumptuous foods are served by well-mannered and decent staff.</p>
+
+        <p>Yummy Chops Restaurants is a 5-star restaurant that produces first-class cuisines by international and local best Chefs of very high repute in the food and catering industry. We maintain consistency since inception. This makes Yummy Chops the first choice for all. At Yummy Chops, every national always feels at home, courtesy of our array of food products for many nationalities and tribes.</p>
+    </div>
+
+   
+    
+</body>
+</html>

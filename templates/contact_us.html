@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        
+    </style>
+    <title>Contact Us</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="{{('/')}}">Home</a></li>
+            <li><a href="{{url_for('services')}}">Services</a></li>
+            <li><a href="{{url_for('about')}}">About Us</a></li>
+            <li><a href="{{url_for('contact_us')}}">Contact Us</a></li>
+            <li><a href="{{url_for('menu')}}">Menu</a></li>
+            <li><a href="{{url_for('faqs')}}">FAQ</a></li>
+            
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <div class="contact-info">
+            <p><strong>Address:</strong> No 14, Kemfat Street, Thomas Estate, Ajah.</p>
+            <p><strong>Phone:</strong> 07035345636, 07033070159, 09024326341, 08099445524</p>
+            <p><strong>Email:</strong> info@yummychopsrestaurant.com.ng</p>
+        </div>
+ 
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Yummy chops restaurants. All rights reserved.</p>
+    </div>
+</body>
+</html>
